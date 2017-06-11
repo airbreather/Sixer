@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixer", "Sixer\Sixer.csproj", "{801B4A69-5A41-472A-94A6-2CACB5E28230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixer", "Sixer\Sixer.csproj", "{801B4A69-5A41-472A-94A6-2CACB5E28230}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixer.Tests", "Sixer.Tests\Sixer.Tests.csproj", "{15516F1B-D73C-4A65-B347-117B5AC9BA61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixer.Tests.Xunit", "Sixer.Tests.Xunit\Sixer.Tests.Xunit.csproj", "{15516F1B-D73C-4A65-B347-117B5AC9BA61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SixRunner.Core", "SixRunner.Core\SixRunner.Core.csproj", "{76348127-EB3D-48F7-8623-0F36381C6F57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SixRunner.Framework", "SixRunner.Framework\SixRunner.Framework.csproj", "{7C098127-37FD-4874-8B1B-41BE570CF67D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixer.Tests.MSTest", "Sixer.Tests.MSTest\Sixer.Tests.MSTest.csproj", "{61D62D2D-53A4-4A08-9F71-705B37272C2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixer.Tests.NUnit", "Sixer.Tests.NUnit\Sixer.Tests.NUnit.csproj", "{67F7EDFF-E20B-41D4-8857-EC7870F5A32A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{15516F1B-D73C-4A65-B347-117B5AC9BA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15516F1B-D73C-4A65-B347-117B5AC9BA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15516F1B-D73C-4A65-B347-117B5AC9BA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76348127-EB3D-48F7-8623-0F36381C6F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76348127-EB3D-48F7-8623-0F36381C6F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76348127-EB3D-48F7-8623-0F36381C6F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76348127-EB3D-48F7-8623-0F36381C6F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C098127-37FD-4874-8B1B-41BE570CF67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C098127-37FD-4874-8B1B-41BE570CF67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C098127-37FD-4874-8B1B-41BE570CF67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C098127-37FD-4874-8B1B-41BE570CF67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D62D2D-53A4-4A08-9F71-705B37272C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D62D2D-53A4-4A08-9F71-705B37272C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D62D2D-53A4-4A08-9F71-705B37272C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D62D2D-53A4-4A08-9F71-705B37272C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F7EDFF-E20B-41D4-8857-EC7870F5A32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F7EDFF-E20B-41D4-8857-EC7870F5A32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F7EDFF-E20B-41D4-8857-EC7870F5A32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F7EDFF-E20B-41D4-8857-EC7870F5A32A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
